@@ -13,7 +13,7 @@ import geminiResponse from "./gemini.js";
 const app = express();
 
 app.use(cors({
-    origin:"https://ai-voice-assistant-r521.onrender.com",
+    origin:"https://ai-voice-assistant-1-mzuc.onrender.com",
     credentials:true
 }))
 
