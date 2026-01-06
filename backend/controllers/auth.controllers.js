@@ -32,8 +32,8 @@ res.cookie("token" ,token,{
     // how much time :token can store in cookie
     // day,hrs,min,sec,millisec
     maxAge:40*24*60*60*1000,
-    sameSite: "strict",
-    secure: false,
+    sameSite: "None",
+    secure: true,
 })
 // Remove password from response
 //    const { password: _, ...userData } = user._doc;
@@ -70,8 +70,8 @@ res.cookie("token" ,token,{
     // how much time :token can store in cookie
     // day,hrs,min,sec,millisec
     maxAge:40*24*60*60*1000,
-    sameSite: "strict",
-    secure: false
+    sameSite: "None",
+    secure: true,
 })
 
  // Remove password from response
